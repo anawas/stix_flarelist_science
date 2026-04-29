@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stix-flarelist-science"
+version = "1.0.0"
+description = "Solar Orbiter/STIX science flare list generation pipeline"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas",
+    "numpy",
+    "astropy",
+    "sunpy",
+    "stixpy",
+    "stixdcpy",
+    "astrospice",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["generate_flarelist_python*"]
