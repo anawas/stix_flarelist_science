@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from astropy import units as u 
 from astropy.coordinates import SkyCoord
 import numpy as np 
-from flarelist_coord_utils import get_rsun_obs
+from .flarelist_coord_utils import get_rsun_obs
 
 
 def stx_estimate_flare_location(pixel_path, time_range, energy_range, plot=False):

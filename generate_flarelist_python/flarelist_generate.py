@@ -19,9 +19,9 @@ import glob
 import re
 from datetime import datetime
 
-from flarelist_coord_utils import is_visible
-from flarelist_generate_utils import find_matching_files, search_remote_data
-from stx_estimate_flare_location import stx_estimate_flare_location
+from .flarelist_coord_utils import is_visible
+from .flarelist_generate_utils import find_matching_files, search_remote_data
+from .stx_estimate_flare_location import stx_estimate_flare_location
 
 
 def fetch_operational_flare_list(tstart, tend, save_csv=False):
