@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "stix-flarelist-science"
-version = "1.0.0"
+version = "1.0.1"
 description = "Solar Orbiter/STIX science flare list generation pipeline"
 requires-python = ">=3.9"
 dependencies = [
